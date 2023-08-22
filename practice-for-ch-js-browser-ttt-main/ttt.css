@@ -1,4 +1,23 @@
 /* Your code here */
-ul {
+h1{
   display: flex;
+  justify-content: center;
+}
+
+ul { 
+  display: flex; 
+  width: 300px;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-right: 100px;
+  margin-left: 360px;
+  justify-content: center;
+  margin-top: 40px;
+
+}
+li { 
+  border: 3px solid black;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(240, 150, 16);
 }
