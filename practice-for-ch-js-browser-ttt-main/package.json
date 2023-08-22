@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "In this project, you'll build HTML views for your Tic-Tac-Toe game. You're not going to write any of the core game code. Instead, you'll just write **view classes** that display the game in the browser and handle browser user input. Ultimately, you're looking to build something like this:",
   "scripts": {
-    "start": "webpack --watch --mode=development"
+    "start": "webpack --watch --mode=development",
+    "dev": "webpack serve --mode development"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +12,8 @@
   "devDependencies": {
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^4.15.1"
   }
 }
