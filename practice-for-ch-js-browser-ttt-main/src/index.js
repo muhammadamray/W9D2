@@ -3,7 +3,7 @@ import Game from "../ttt_node/game"
 
 document.addEventListener("DOMContentLoaded", () => {
 const game = new Game();
-const element = document.querySelector(".ttt")
+let element = document.querySelector(".ttt")
 const view = new View(game, element);
 console.log(view);
 });

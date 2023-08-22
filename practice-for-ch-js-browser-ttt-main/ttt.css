@@ -21,3 +21,10 @@ li {
   height: 90px;
   background-color: rgb(240, 150, 16);
 }
+
+.x{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+}
